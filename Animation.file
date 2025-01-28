@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        /* body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: violet;
+            font-size: 28px;
+            color: rgb(10, 5, 113);
+            text-align: center;
+            align-content: center;
+            /* transform: translate(250px,200px); */
+            /* transition: width 2s, height 2s; */
+            /* transition-delay: 2s; */
+            /* transition-duration: 3s; */
+            /* transition-timing-function: ease-in-out; */
+        /* } */
+        /* div:hover{ */
+            /* transform: rotate(60deg); */
+            /* transform: scale(1.5); */
+            /* transform: skew(20deg,20deg ); */
+            /* transform: rotateX(150deg); */
+            /* transform: rotateY(150deg); */
+            /* transform: rotateZ(150deg);
+            transition: all 4s; */
+            /* --------------------------------- */
+            /* width: 300px; */
+            /* height: 300px; */
+        /* } */
+        .container{
+            height: 90vh;
+            position: relative;
+            overflow: hidden;
+        } 
+        .container img{
+            position: absolute;
+            bottom: 0;
+            right : 0;
+            animation-name: movingTruck;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes movingTruck{
+            0%{
+                left: -300px;
+            }
+            100%{
+               left: 1500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>2D & 3D Tranformation</h1>
+
+    <!-- <div>1</div> -->
+     <div class="container">
+        <img src="Animhorse.gif" alt="d" width="250px">
+     </div>
+
+</body>
+</html>
